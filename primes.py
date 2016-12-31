@@ -78,7 +78,7 @@ def primitive_roots(p):
     """Function to find primitive roots
 
     :param p: a prime p we want to find the primitive roots of
-    :returns: list of primitive roots
+    :returns: tuple in the form (<first primitive root>, <# primitive roots>)
     """
 
     s = p-1
